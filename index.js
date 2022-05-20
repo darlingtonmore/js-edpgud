@@ -1,4 +1,12 @@
-import { readKey,decryptKey,readPrivateKey,encrypt,createMessage,readMessage,decrypt } from 'openpgp'; // use as CommonJS, AMD, ES6 module or via window.openpgp
+import {
+  readKey,
+  decryptKey,
+  readPrivateKey,
+  encrypt,
+  createMessage,
+  readMessage,
+  decrypt,
+} from 'openpgp'; // use as CommonJS, AMD, ES6 module or via window.openpgp
 
 (async () => {
   // put keys in backtick (``) to avoid errors caused by spaces or tabs
